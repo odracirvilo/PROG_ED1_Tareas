@@ -1,4 +1,4 @@
-	import java.util.Scanner;
+import java.util.Scanner;
 
 public class Multiplo13 
 
@@ -22,13 +22,12 @@ public class Multiplo13
 		{
 			System.out.println("El numero aleatorio SI es multiplo de 13.");
 		}
-		
 		else
 		{
 			System.out.println("El numero aleatorio NO es multiplo de 13.");
 		}	
 		
-			entrada.close();
+entrada.close();
 	}
 
 }
