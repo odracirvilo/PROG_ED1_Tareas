@@ -16,20 +16,15 @@ public class Multiplo13v1
 		System.out.println("Introduzca un numero aleatorio: ");
 		numeroAleatorio = entrada.nextInt();
 		
-		int numeroMultiplo =0;
-		System.out.println("Determinar si es multiplo de:");
-		numeroMultiplo = entrada.nextInt();
-		
-		double resultado = 0;
-		resultado = numeroAleatorio % numeroMultiplo;
+		int resultado = numeroAleatorio % 13;
 		
 		if(resultado == 0)
 		{
-			System.out.println("El numero aleatorio ¡SI! es multiplo del numero aleatorio.");
+			System.out.println("El numero aleatorio ¡SI! es multiplo de 13.");
 		}
 		else
 		{
-			System.out.println("El numero aleatorio ¡NO! es multiplo del numero aleatorio.");
+			System.out.println("El numero aleatorio ¡NO! es multiplo de 13.");
 		}	
 		
 entrada.close();

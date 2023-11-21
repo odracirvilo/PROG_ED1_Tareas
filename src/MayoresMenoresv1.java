@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 
-public class MayoresMenores 
+public class MayoresMenoresv1 
 {
 
 	public static void main(String[] args) 
